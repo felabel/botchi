@@ -1,0 +1,37 @@
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    background: url(../images/spa-bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.content-wrapper{
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    justify-content: space-between;
+    width: 90%;
+    top: 70px;
+    right: 30px;
+}
+.text-container{
+    width: 40%;
+    height: 50vh;
+    background-color: white;
+}
+.slide-container{
+    width: 55%;
+    height: 50vh;
+    background-color: blue;
+}
+.about-us{
+    width: 90%;
+    height: 225vh;
+    background-color: yellowgreen;
+    margin: auto;
+    display: flex;
+}
