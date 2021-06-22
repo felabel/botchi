@@ -1,9 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine|playball|Roboto|dancing+script');
 .banner{
     position: absolute;
     width: 100%;
     height: 90vh;
     background: url(../images/spa-bg2.jpg);
-    background-size: cover;
+    background-size: 100% 90vh;
     background-repeat: no-repeat;
     
     
@@ -14,19 +16,56 @@
     position: absolute;
     margin: auto;
     justify-content: space-between;
-    width: 90%;
-    top: 70px;
-    right: 30px;
+    width: 100%;
+    top: 85px;
+    /* right: 30px; */
+    /* align-items: flex-end; */
+
+}
+p{
+    font-family: "roboto", sans-serif;
+    font-size: 1.2em;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+.text-container h1{
+    font-size: 50px;
+    /* font-style: italic; */
+    color: rgb(221, 216, 216);
+    font-family: "Playball", sans-serif;
 }
 .text-container{
-    width: 40%;
+    padding: 30px 50px;
+    text-align: center;
+    width: 60%;
     height: 50vh;
-    background-color: white;
+    position: relative;
+    margin-left: 20px;
+    /* background-color: rgba(128, 87, 87, 0.5); */
+}
+.text-container a{
+    padding: 20px 60px;
+    background: linear-gradient(90deg, rgb(240, 208, 103) 0%, hsl(51, 94%, 42%) 35%, #f0a61c 100%);
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    
+}
+.text-container a:hover{
+    transform: translate(100px, 200px);
 }
 .slide-container{
-    width: 55%;
+    width: 40%;
     height: 50vh;
-    background-color: blue;
+    /* background-color: blue; */
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-left: 15px solid goldenrod ;
+    /* border-top: 5px solid goldenrod ;
+    border-bottom: 5px solid goldenrod ; */
+    /* border: 2px solid ; */
+
 }
 .about-us{
     width: 90%;
@@ -34,4 +73,8 @@
     background-color: yellowgreen;
     margin: auto;
     display: flex;
+}
+.mySlides img{
+    
+    
 }

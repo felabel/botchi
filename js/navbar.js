@@ -3,6 +3,10 @@ window.addEventListener('scroll', function(){
     nav.classList.toggle('sticky', window.scrollY > 150);
    
 })
+
+
+    
+
  function showMenu(){
       // get the mobile menu class and display it to none when clicked
       var harmburger = document.querySelector('.harmburger-menu');
