@@ -229,7 +229,7 @@ select option{
     position: absolute;
     width: 70%;
     height: 35%;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     top: 10%;
     left: 15%;
   }
