@@ -3,6 +3,7 @@ body, html{
     border: 0;
     padding: 0;
     margin: 0;
+    /* line-height: 20px; */
     /* box-sizing: border-box; */
 }
 *{
@@ -130,7 +131,7 @@ select option{
     } */
     .hamburger{
         position: absolute;
-        left: 80%;
+        left: 85%;
         display: block;
         cursor: pointer;
     }
@@ -140,61 +141,6 @@ select option{
         left: 90%;
         display: none;
         cursor: pointer;
-    }
-    .slide-container{
-        height: 300px!important;
-    }
-    #mybgs{
-        height: 100%!important;
-    }
-    .mySlide{
-        height: 100%;
-    }
-    #slide h1{
-        color: white;
-        font-size: 20px!important;
-        font-family: 'tangerine' sans-serif;
-    } 
-    .slideshow-container{
-        width: 80%!important;
-        height: 200px!important;
-        top: 7%!important;
-        left: 10%!important;
-    } 
-    #slide p{
-        color: white;
-        font-size: 16px!important;
-    }
-    #slide a{
-        padding: 10px 30px!important;
-        font-size: 1em!important;
-    }
-    #slide img{
-        width: 100px;
-      height: 100px;
-    }
-    .about{
-      
-        margin: 0px!important;
-        flex-direction: column;
-        height: 35vh!important;
-  
-    }
-    .about-content{
-        margin: 0px!important;
-        border: 1px solid red!important;
-        width: 100%!important;
-    }
-    .about-content #about{
-        margin: 0px!important;
-        padding: 0px!important;
-    }
-    .about-content h1{
-        padding: 0px!important;
-        font-size: 1.2rem!important;
-    }
-    .seperator-line{
-        width: 100px!important;
     }
     
   
@@ -230,7 +176,7 @@ select option{
     width: 70%;
     height: 35%;
     /* background-color: rgba(0, 0, 0, 0.5); */
-    top: 10%;
+    top: 3.5%;
     left: 15%;
   }
   
@@ -361,16 +307,17 @@ select option{
   .about{
       width: 100%;
       /* background-color: aqua; */
-      height: 40vh;
-      margin-top: 30px;
+      /* height: 40vh!important; */
+      margin-top: 30px!important;
+      margin-bottom: 30px;
       display: flex;
       flex-direction: column;
 
   }
   .about-content{
-      width: 70%;
+      width: 50%;
       /* border: 2px solid red; */
-      height: 90%;
+      /* height: 90%; */
       align-self: center;
       text-align: center;
       padding: 20px 0px;
@@ -394,4 +341,86 @@ select option{
     border-bottom: 1.5px solid hsl(51, 94%, 42%);
     margin: auto; 
 
+}
+/* ipad */
+@media screen and (max-width:699px) and (min-width: 200px) {
+    .slide-container{
+        height: 450px!important;
+    }
+    #mybgs{
+        height: 100%!important;
+    }
+    .mySlide{
+        height: 100%;
+    }
+    #slide h1{
+        color: white;
+        font-size: 20px!important;
+        font-family: 'tangerine' sans-serif;
+    } 
+    .slideshow-container{
+        width: 80%!important;
+        height: 200px!important;
+        top: 3%!important;
+        left: 10%!important;
+    } 
+    #slide p{
+        color: white;
+        font-size: 16px!important;
+    }
+    #slide a{
+        padding: 10px 30px!important;
+        font-size: 1em!important;
+    }
+    #slide img{
+        width: 100px;
+      height: 100px;
+    }
+    .about{
+      
+        margin: 0px!important;
+  
+    }
+    .about-content{
+        margin: 0px!important;
+        /* border: 1px solid red!important; */
+        width: 70%!important;
+    }
+    .about-content #about{
+        margin: 0px!important;
+        padding: 0px!important;
+    }
+    .about-content h1{
+        padding: 0px!important;
+        font-size: 1.2rem!important;
+    }
+    .seperator-line{
+        width: 100px!important;
+    }
+    
+}
+
+@media screen and (max-width:900px) and (min-width: 700px){
+    .slide-container{
+        height: 600px;
+    }
+    .about-content{
+        width: 70%!important;
+        
+    }
+    .about-content #about{
+        font-size: 2em;
+    }
+    .about-content p{
+       font-size: 1.5em; 
+    }
+    #slide h1{
+        font-size: 1.8rem;
+    }
+    #slide p{
+       font-size: 1.5em; 
+    }
+    .slideshow-container{
+        /* width: 80%!important; */
+    }
 }
